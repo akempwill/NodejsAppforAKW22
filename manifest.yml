@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Nodejs App for AKW22
+  host: Nodejs-App-for-AKW22
+  disk_quota: 1024M
+  services:
+  - Nodejs App for AKW22-cloudantNoSQLDB
+  - availability-monitoring-auto
